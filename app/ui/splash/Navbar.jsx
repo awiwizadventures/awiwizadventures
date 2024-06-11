@@ -5,7 +5,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-md bg-success sticky-top">
+      <nav className="navbar navbar-expand-md sticky-top">
         <div className="container-fluid">
           <Link href="/" className="navbar-brand">
             <Image
@@ -13,6 +13,7 @@ function Navbar() {
               alt="logo"
               width={70}
               height={70}
+              priority={true}
               className="d-inline-block align-text-top"
             />
           </Link>
