@@ -155,3 +155,24 @@
   color: #ffffff;
   /* Ensure text color remains white */
 }
+
+.about-heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: start;
+}
+
+.about-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: start;
+}
+
+.about-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: start;
+}

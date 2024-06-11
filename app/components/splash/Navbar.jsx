@@ -5,7 +5,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-md sticky-top">
+      <nav className="navbar navbar-expand-md bg-light border-bottom sticky-top">
         <div className="container-fluid">
           <Link href="/" className="navbar-brand">
             <Image
