@@ -6,7 +6,7 @@ function Product() {
     <div className="container-fluid" style={{ backgroundColor: "#f5f5f5" }}>
       <div className="container py-3">
         <div className="text-center mb-5">
-          <h2 className="product-heading text-uppercase">Our Products</h2>
+          <h2 className="product-heading text-uppercase mt-3">Our Services</h2>
           <hr
             className="w-50 border-3 mx-auto py-2"
             style={{ borderColor: "#ff0000" }}
