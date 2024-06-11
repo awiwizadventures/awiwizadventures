@@ -134,3 +134,24 @@
   text-align: start;
   letter-spacing: 1px;
 }
+
+.hero-btn {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.0rem;
+  font-weight: 400;
+  text-align: start;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: #2a4c09;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #1f3707;
+  color: #ffffff;
+  /* Ensure text color remains white */
+}
