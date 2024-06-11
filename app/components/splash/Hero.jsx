@@ -4,7 +4,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="container-fluid hero d-flex flex-column justify-content-center mx-auto">
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-md-6 col-sm-12 mb-3 align-items-start p-3 bg-white">
             <h1
@@ -23,7 +23,6 @@ function Hero() {
               adventure in the country.
             </p>
 
-            {/* Button for small screens */}
             <div className="d-block d-md-none">
               <Link href="#" className="hero-btn">
                 Contact Us
@@ -50,7 +49,7 @@ function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

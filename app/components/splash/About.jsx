@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   return (
     <div className="container py-5">
-      <div className="row mb-5 mt-5">
+      <div className="row mb-5 mt-5 justify-content-center align-items-center">
         <div className="col-md-6 col-sm-12 mb-3">
           <h2 className="about-heading">About Awiwiz Adventures</h2>
           <hr
@@ -18,6 +19,9 @@ function About() {
             focused on adventure and survival. We offer various services
             ensuring you get the best adventure in the country.
           </p>
+          <Link href="#" className="hero-btn">
+            Explore
+          </Link>
 
           {/* <Image
             src="/logo.svg"
@@ -40,8 +44,8 @@ function About() {
             src="/giraffe.jpg"
             alt=""
             className="img-fluid"
-            width={300}
-            height={500}
+            width={400}
+            height={400}
           />{" "}
         </div>
       </div>
