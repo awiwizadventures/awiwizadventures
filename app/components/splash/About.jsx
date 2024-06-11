@@ -5,7 +5,7 @@ import Link from "next/link";
 function About() {
   return (
     <div className="container py-5">
-      <div className="row mb-5 mt-5 justify-content-center align-items-center">
+      <div className="row mt-5 justify-content-center align-items-center">
         <div className="col-md-6 col-sm-12 mb-3">
           <h2 className="about-heading">About Awiwiz Adventures</h2>
           <hr
