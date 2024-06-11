@@ -176,3 +176,55 @@
   font-weight: 400;
   text-align: start;
 }
+
+.product-heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #2a2a2a;
+}
+
+.footer h5 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.footer p,
+.footer ul,
+.footer a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ff0000;
+}
+
+.footer i {
+  font-size: 1.2rem;
+}
+
+.footer .list-unstyled {
+  padding-left: 0;
+}
+
+.footer .me-2 {
+  margin-right: 0.5rem !important;
+}
+
+.footer .text-white {
+  color: #fff !important;
+}
+
+.footer .bg-dark {
+  background-color: #2a2a2a !important;
+}

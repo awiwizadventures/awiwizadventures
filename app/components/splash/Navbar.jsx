@@ -24,7 +24,7 @@ function Navbar() {
             data-bs-target="#collapsibleNavbar"
             aria-controls="collapsibleNavbar"
           >
-            <i className="bi bi-list navbar-toggler-icon"></i>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           <div
