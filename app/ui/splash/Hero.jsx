@@ -22,6 +22,13 @@ function Hero() {
               survival. We offer various services ensuring you get the best
               adventure in the country.
             </p>
+
+            {/* Button for small screens */}
+            <div className="d-block d-md-none">
+              <Link href="/contact" className="hero-btn">
+                Contact Us
+              </Link>
+            </div>
           </div>
 
           <div className="col-md-6 col-sm-12 align-items-end d-none d-md-block">
