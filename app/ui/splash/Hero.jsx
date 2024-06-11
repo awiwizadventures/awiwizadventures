@@ -25,13 +25,13 @@ function Hero() {
 
             {/* Button for small screens */}
             <div className="d-block d-md-none">
-              <Link href="/contact" className="hero-btn">
+              <Link href="#" className="hero-btn">
                 Contact Us
               </Link>
             </div>
           </div>
 
-          <div className="col-md-6 col-sm-12 align-items-end d-none d-md-block">
+          <div className="col-md-6 col-sm-12 align-items-end d-none d-md-block mt-3 mt-md-0">
             <div
               className="bg-white p-3 border-top-5 rounded text-start mb-3"
               style={{ borderTop: "solid #ff0000" }}
@@ -44,7 +44,7 @@ function Hero() {
                 </Link>
               </p>
 
-              <Link href="/contact" className="hero-btn">
+              <Link href="#" className="hero-btn">
                 Contact Us
               </Link>
             </div>
